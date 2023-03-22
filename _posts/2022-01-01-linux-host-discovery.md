@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linux Host  Discovery"
+title:  "scripting - linux - host discovery"
 date:   2022-01-01
 categories: linux
 ---

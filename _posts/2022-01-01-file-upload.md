@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "File Upload"
+title:  "webapp attacks - file upload"
 date:   2022-01-01
 categories: web
 ---

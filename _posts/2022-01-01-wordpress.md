@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WordPress"
+title:  "webapp attacks - wordpress"
 date:   2022-01-01
 categories: web
 ---

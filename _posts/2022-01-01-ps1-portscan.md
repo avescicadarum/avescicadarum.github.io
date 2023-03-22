@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "powershell - portscan"
+title:  "scripting - windows - powershell portscan"
 date:   2022-01-01
 categories: windows
 ---

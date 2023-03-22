@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Proxychains"
+title:  "networking - linux - proxychains"
 date:   2022-01-01
 categories: networking
 ---

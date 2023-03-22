@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "windows - persistence"
+title:  "post exploitation - windows - persistence - add administrator user"
 date:   2022-01-01
 categories: windows
 ---

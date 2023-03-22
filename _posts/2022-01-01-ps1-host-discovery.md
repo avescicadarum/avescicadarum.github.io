@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "powershell - host discovery"
+title:  "scripting - windows - powershell - one line host discovery"
 date:   2022-01-01
 categories: windows
 ---

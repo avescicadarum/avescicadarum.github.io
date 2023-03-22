@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Windows Download Files"
+title:  "file transfer - windows - powershell / impacket-smbserver / tftp"
 date:   2022-01-01
 categories: web
 ---

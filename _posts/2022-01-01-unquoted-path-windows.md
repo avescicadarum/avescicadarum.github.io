@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unquoted Service Path"
+title:  "privilege escalation - unquoted service paths"
 date:   2022-01-01
 categories: windows
 ---

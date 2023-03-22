@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Windows - BOF 1"
+title:  "bof - windows"
 date:   2022-01-01
 categories: web
 ---

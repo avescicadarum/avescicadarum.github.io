@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Lib Hijacking"
+title:  "privilege escalation - linux - python lib hijacking"
 date:   2022-01-01
 categories: linux
 ---
