@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "active directory - windows - dcsync getchangesall"
+title:  "ad - windows - dcsync getchangesall"
 date:   2022-01-01
 categories: windows
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "privilege escalation - windows -  seimpersonateprivilege / seassignprimarytokenprivilege - juicypotato"
+title:  "privesc - windows -  seimpersonateprivilege / seassignprimarytokenprivilege - juicypotato"
 date:   2022-01-01
 categories: windows
 ---

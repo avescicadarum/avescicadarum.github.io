@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "active directory - windows - bloodhound"
+title:  "ad - windows - bloodhound"
 date:   2022-01-01
 categories: windows
 ---

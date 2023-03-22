@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "privilege escalation - windows -  seimpersonateprivilege / seassignprimarytokenprivilege - printspoofer"
+title:  "privesc - windows -  seimpersonateprivilege / seassignprimarytokenprivilege - printspoofer"
 date:   2022-01-01
 categories: windows
 ---
