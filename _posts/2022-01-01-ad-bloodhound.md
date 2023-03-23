@@ -34,3 +34,9 @@ PS C:\Users\user\Documents> Invoke-BloodHound -CollectionMethod All -Domain DC0.
 sudo neo4j console
 bloodhound
 ```
+
+### Bloodhound remotely
+
+```bash
+bloodhound-python -u user -p RealPassword01 -d example.com -gc dc.example.com -c all -ns 10.10.10.10
+```

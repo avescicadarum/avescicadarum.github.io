@@ -8,6 +8,10 @@ categories: web
 ## Enumeration
 
 ```bash
+wpscan --url example.local --enumerate ap,at,cb,dbe
+```
+
+```bash
 
 wpscan --rua -e --url http://<ip>:<port>/<uri>/
 

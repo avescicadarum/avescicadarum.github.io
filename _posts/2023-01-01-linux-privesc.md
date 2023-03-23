@@ -5,6 +5,22 @@ date:   2022-01-01
 categories: linux
 ---
 
+## Ubuntu 11.10
+
+```
+$ cat /etc/issue
+Ubuntu 11.10 \n \l
+
+$ gcc memodipper.c -o mem
+$ chmod +x mem
+$ ./mem
+```
+
+## Sudo exploit CVE-2021-3156 - linpeas
+
+```bash
+https://github.com/worawit/CVE-2021-3156/blob/main/exploit_userspec.py
+```
 
 ## writable /etc/passwd
 

