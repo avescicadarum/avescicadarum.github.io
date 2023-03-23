@@ -61,4 +61,12 @@ https://abrictosecurity.com/how-to-use-proxychains/
 
 ```
 
+### netsh windows port forward
+
+ listening on 10.10.10.10 (listenaddress=10.10.10.10), port 4455 (listenport=4455) that will forward to the (connectaddress=10.10.10.20) on port 445 (connectport=445):
+
+```bash
+netsh interface portproxy add v4tov4 listenport=4455 listenaddress=10.10.10.10 connectport=445 connectaddress=10.10.10.20
+```
+
 
